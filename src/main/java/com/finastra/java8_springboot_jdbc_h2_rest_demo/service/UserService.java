@@ -18,7 +18,7 @@ public class UserService {
 
     public Integer addNumbers(int num1, int num2) {
         Operator operator = Operator.ADD;
-        return operator.execute(num1, num2);;
+        return operator.execute(num1, num2);
     }
     public User createUser(String requestBody) {
 
